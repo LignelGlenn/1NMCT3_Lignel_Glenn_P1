@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+{% import "macros/macro.html" as macro %}
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" href="../static/css/resetcss.css">
+    <link rel="stylesheet" href="../static/css/css.css">
+</head>
+<body>
+    <header>{{ macro.menuA() }}</header>
+    <figure class="headerPicture">
+        <img src="../static/images/mini3.png"/>
+    </figure>
+    <div class="featuresTitle">Features</div>
+        <div class="features">
+            <div class="featuresText">
+                RC-PI is een eindwerk van Glenn Lignel uit het eerste jaar NMCT. Het project is een uitbereiding
+                van een radio gestuurde wagen. De uitbereiding omvat een meting van de snelheid en het
+                batterijverbruik, waarbij de gegevens terug gegeven worden op een display van de afstandsbediening.
+            </div>
+            <figure>
+                <img class="featuresPicture" src="../static/images/mini.jpg"/>
+            </figure>
+        </div>
+    <footer class="footer">{{ macro.footer() }}</footer>
+</body>
+</html>

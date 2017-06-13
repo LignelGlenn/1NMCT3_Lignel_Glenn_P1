@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9f64f16e-e6be-4913-8537-9deaba86ffdd" name="rpi-apipa" url="http://169.254.10.1">
+        <fileTransfer host="169.254.10.1" port="22" rootFolder="/home/glenn" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

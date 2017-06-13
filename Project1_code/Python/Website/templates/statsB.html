@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% import "macros/macro.html" as macro %}
+<head>
+    <meta charset="UTF-8">
+    <title>StatsB</title>
+    <link rel="stylesheet" href="../static/css/resetcss.css">
+    <link rel="stylesheet" href="../static/css/css.css">
+</head>
+<body>
+    <header>{{ macro.menuA() }}</header>
+    <div class="tabs">
+        <div class="tab">
+            <a class="tabs" href="../stats"">All sessions</a>
+        </div>
+        <div class="tab active">General stats</div>
+    </div>
+    <footer class="footer">{{ macro.footer() }}</footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{% macro build_link(url,waarde) %}
+    <a href="{{ url_for(url) }}">{{ waarde }}</a>
+{% endmacro %}
+
+
+{% macro menuA() %}
+    <nav class = menuA>
+        <figure>
+            <a href="../home" ><img class = navPicture src="../../static/images/logo.png" alt="Home"/></a>
+        </figure>
+        <ul>
+            <li><a href="../contact">Contact</a></li>
+            <li>Features</li>
+            <li><a href="../login">Log In</a></li>
+            <li><a href="../register">Register</a></li>
+        </ul>
+    </nav>
+{% endmacro %}
+
+
+{% macro menuB() %}
+    <nav class = menuA>
+        <figure>
+            <a><img class = headerPicture src="../../static/images/logo.png" /></a>
+        </figure>
+        <ul>
+            <li>Contact</li>
+            <li>Features</li>
+            <li>Stats</li>
+            <li>Profile</li>
+        </ul>
+    </nav>
+{% endmacro %}
+
+
+{% macro footer() %}
+    <div class="footerIcons">
+        <ul>
+            <li><a href="https://www.facebook.com/"><img src="../../static/images/icons/Fb.png"/></a></li>
+            <li><a href="https://www.youtube.com/"><img src="../../static/images/icons/Yt.png"/></a></li>
+            <li><a href="https://twitter.com/"><img src="../../static/images/icons/Tt.png"/></a></li>
+            <li><a href="https://nl.pinterest.com/"><img src="../../static/images/icons/Pt.png"/></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="../../static/images/icons/In.png"/></a></li>
+            <li><a href="https://www.reddit.com/"><img src="../../static/images/icons/Rd.png"/></a></li>
+            <li><a href="https://github.com/"><img src="../../static/images/icons/Gh.png"/></a></li>
+        </ul>
+    </div>
+    <div class="footerText">
+        <a href="https://student.howest.be/glenn.lignel/portfolio/">RC-PI - Final project by Glenn Lignel - 1NMCT3</a>
+    </div>
+{% endmacro %}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% import "macros/macro.html" as macro %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/resetcss.css">
+    <link rel="stylesheet" href="../static/css/css.css">
+</head>
+<body>
+    <header>{{ macro.menuA() }}</header>
+    <div class="error">
+        Error 404:
+        De webpagina die u probeert op te vragen bestaat helaas niet.
+    </div>
+    <footer class="footer">{{ macro.footer() }}</footer>
+</body>
+</html>

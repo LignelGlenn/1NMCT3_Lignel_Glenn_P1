@@ -1,0 +1,158 @@
+@font-face{font-family:Roboto;src:url(http://fonts.google.com/specimen/Roboto)}
+html{
+    font-family: Roboto;
+    background-color: #2f2f2f;
+}
+body{
+    margin: 0px;
+}
+nav ul{
+    text-align: right;
+    padding-top: 31px;
+    padding-right: 14px;
+    font-size: 25px;
+}
+nav figure{
+    padding: 1em 0 0 1em;
+    width: 200px;
+}
+nav ul li{
+    display: inline-block;
+    font-weight: 300;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li + li{
+    margin-left: 20px;
+}
+input{
+    margin-top: 10px;
+    width:100%;
+    font-size: 25px;
+}
+.changepage a h3{
+    text-decoration: underline;
+    color: white;
+    padding: 30px 30px 137px;
+}
+
+
+.error{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 206px 20px;
+}
+.menuA{
+    background-color: #000000;
+    padding: 0;
+    width: 100%;
+    height: 119px;
+    color: #ffffff;
+}
+.navPicture{
+    float: left;
+    height: 87px;
+    width: 168px;
+    padding: 0;
+}
+.NameForm{
+    padding-left: 10px;
+}
+.headerPicture{
+    text-align: center;
+}
+.featuresTitle{
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.features{
+    height: 367px;
+}
+.featuresText{
+    width: 400px;
+    padding: 30px 0 0 30px;
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 30px ;
+    float: left;
+}
+.featuresPicture{
+    margin-right: 30px;
+    text-align: right;
+    padding: 30px 0 30px;
+    display: inline-block;
+    height: 307px;
+    width: 512px;
+    float: right;
+}
+
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    height: 175px;;;
+}
+.footerText{
+    font-size: 10px;
+    margin-left: 30px;
+    padding-top: 78px;
+}
+.footerText a{
+    color: white;
+}
+.footerIcons ul li{
+    display: inline-block;
+}
+.footer ul li + li{
+    margin-left: 20px;
+}
+.footer ul{
+    padding-top: 30px;
+    text-align: center;
+}
+
+body form table{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h1{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.tabs{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.tab{
+    background-color: white;
+    color: black;
+    float: left;
+    height: 20px;
+    padding: 30px 0;
+    text-align: center;
+    width: 50%;
+}
+
+.active{
+    background-color: #2f2f2f;
+    color: white;
+}

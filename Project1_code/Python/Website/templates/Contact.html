@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+{% import "macros/macro.html" as macro %}
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../static/css/resetcss.css">
+    <link rel="stylesheet" href="../static/css/css.css">
+</head>
+<body>
+    <header>{{ macro.menuA() }}</header>
+<h1>Log in as registered user:</h1>
+    <br>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2"><input type="text" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" placeholder="Email"></td>
+                </tr>
+                <tr id="message">
+                    <td colspan="2"><input type="text" placeholder="Message"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <br>
+<footer class="footer">{{ macro.footer() }}</footer>
+</body>
+</html>
